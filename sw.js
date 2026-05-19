@@ -4,14 +4,15 @@
    desktop Chrome/Firefox/Edge).
 ─────────────────────────────────────────────────────── */
 
-const CACHE_NAME = 'promptforge-v1';
+const CACHE_NAME = 'promptforge-v2';
 
 // Everything is embedded in index.html — only two files
 // need caching for the PWA to work offline.
 const ASSETS = [
   './',
   './index.html',
-  './manifest.json'
+  './manifest.json',
+  './icon-180.png'
 ];
 
 /* Install: pre-cache all assets */
